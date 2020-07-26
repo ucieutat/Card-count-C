@@ -1,0 +1,22 @@
+This code was created for an optional assignement in a beginner C MOOC
+
+It generates a hand of 7 cards (and not 5, but the adjustments are easy to make), sort it by value of card and count if there's a pair, double pairs, three of a kind, full house or four of a kind
+I didn't add yet the flush and the other combinations
+
+I think it can be improved, here I generated a million hands and counted the number of times each combination appeared to see if the program was correct,
+if you want to do the same here's the table of probabilities for each combination with a hand of 7 cards :
+
+Hand	            Combinations	Probabilities
+Royal flush	      4324	        0.00003232
+Straight flush	  37260	        0.00027851
+Four of a kind	  224848	      0.00168067
+Full house	      3473184     	0.02596102
+Flush	            4047644	      0.03025494
+Straight	        6180020	      0.04619382
+Three of a kind 	6461620	      0.04829870
+Two pair        	31433400	    0.23495536
+Pair	            58627800	    0.43822546
+Ace high or less	23294460	    0.17411920
+Total	            133784560	    1.00000000
+
+Feel free to use it, add comments :)
